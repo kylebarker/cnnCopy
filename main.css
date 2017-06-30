@@ -134,7 +134,7 @@ li a:hover{
 }
 
 .headlines{
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   height: inherit;
   width: 34%;
   display: inline-block;
@@ -175,19 +175,75 @@ li a:hover{
 }
 
 
-.contHeadlines{
-  background-color: lightgrey;
+.topStories{
   height: inherit;
   width: 23%;
   display: inline-block;
-
+  /*border: 1px solid black;*/
 }
 
-.topStories{
-  background-color: black;
+.topStoriesTitle{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: #F2F2F2;
+  color: #404040;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.topStoriesImage {
+  width: 100%;
+}
+
+.topStoriesImage img {
+  width: 100%;
+  height: auto;
+}
+
+
+.topStoriesHeadlineOne {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.politicsToday{
   height: inherit;
   width: 23%;
   display: inline-block;
+}
+
+.politicsTodayTitle{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: #F2F2F2;
+  color: #404040;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.politicsTodayImage {
+  width: 100%;
+}
+
+.politicsTodayImage img {
+  width: 100%;
+  height: auto;
+}
+
+
+.politicsTodayHeadlineOne {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*Second Row*/
