@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100%;
+}
+
+.navBar {
+  background-color: #0C0C0C;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navLogo{
+  width:60px;
+  height: 60px;
+  margin-left: 170px;
+}
+
+.navBarTabs{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 235px;
+  width: 100%;
+}
+
+nav ul li {
+  list-style-type: none;
+  width: 50px;
+  float:left;
+  text-align: center;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:#BFBFBF;
+  line-height: 6px;
+  display:block;
+  font-family: sans-serif;
+  position: relative;
+  padding-top: 10px;
+  border-right: 1px solid #BFBFBF;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+li a:hover{
+  color:white;
+}
+
+.navBarTabs ul li a span{
+  position: relative;
+  bottom: 5px;
+}
+
+.usLink{
+  width: 41px;
+}
+
+.worldLink{
+  width: 52px;
+}
+
+.politicsLink{
+  width:61px;
+}
+
+.moneyLink{
+  width: 59px;
+}
+
+.opinionLink{
+  width: 65px;
+}
+
+.healthLink{
+  width: 56px;
+}
+
+.entertainmentLink{
+  width:110px;
+}
+
+.techLink{
+  width:43px;
+}
+
+.styleLink{
+  width:45px;
+}
+
+.travelLink{
+  width:54px;
+}
+
+.sportsLink{
+  width:57px;
+}
+
+.videoLink{
+  width:51px;
+}
+
+.vrLink {
+  width:32px;
+}
+
+.liveTVButton{
+  color: #BFBFBF;
+  border: 1px solid #BFBFBF;
+  width: 90px;
+  font-size: 14px;
+  font-family: sans-serif;
+  position: relative;
+  margin-left: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  padding-left: 8px;
+}
+
+/*FirstRow*/
+.firstRow{
+  width: 100%;
+  min-height: 100px;
+  margin-top: 50px;
+}
+
+.headlines{
+  border: 1px solid black;
+  height: inherit;
+  width: 34%;
+  display: inline-block;
+  margin-left: 145px;
+}
+
+.headline{
+  padding-top: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.headlineImage {
+  width: 100%;
+}
+
+.headlineImage img {
+  width: 100%;
+  height: auto;
+}
+
+.headlineOne{
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+
+.headTitle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+  width:100%;
+  border-bottom: 1px solid black;
+}
+
+
+.contHeadlines{
+  background-color: lightgrey;
+  height: inherit;
+  width: 23%;
+  display: inline-block;
+
+}
+
+.topStories{
+  background-color: black;
+  height: inherit;
+  width: 23%;
+  display: inline-block;
+}
+
+/*Second Row*/
+.secondRow{
+  background-color: red;
+  width: 100%;
+}
+
+.newsAndBuzz {
+  background-color: lightgrey;
+  height: inherit;
+  width: 26.6666%;
+  display: inline-block;
+  margin-left: 145px;
+}
+
+.culture{
+  background-color: black;
+  height: inherit;
+  width: 26.6666%;
+  display: inline-block;
+}
+
+.addSpace{
+  background-color: lightgrey;
+  height: inherit;
+  width: 26.6666%;
+  display: inline-block;
+}
